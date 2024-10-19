@@ -17,6 +17,7 @@ def string_info(string):
 
 
 def is_contains(string, list_to_search):
+    countcalls()
     string = str(string)
     list_to_search = list(list_to_search)
     for word in list_to_search:
@@ -26,15 +27,13 @@ def is_contains(string, list_to_search):
         else:
             print(False)
             break
-    countcalls()
 
 
-is_contains('AAA', ['aa', 'aasd', 'aaa'])
-is_contains('Hate', ['fata', 'hatE', 'HATE'])
+
 string_info('Daddy')
-string_info('asdasdasdadasdsda')
-is_contains('ddd', ['ddd', 'assda', 'sdfdddf'])
-is_contains('asd', ['asda', 'dsdf'])
+string_info('Bingobongo')
+is_contains('Urban', ['ban', 'BaNaN', 'uBAN'])
+is_contains('cycle', ['recycling', 'cyclic'])
 print(calls)
 
 
